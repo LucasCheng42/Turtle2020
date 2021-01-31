@@ -1,176 +1,36 @@
 Class documentation
 <---- javadoc command: ---->
-C:\Program Files (x86)\BlueJOLD\jdk\bin\javadoc.exe
+C:\BlueJ-windows-422\BlueJ\jdk\bin\javadoc.exe
 -author
 -version
 -nodeprecated
 -package
+-Xdoclint:none
 -noindex
 -notree
 -nohelp
 -nonavbar
 -source
-1.8
+11
 -classpath
-C:\Program Files (x86)\BlueJOLD\lib\bluejcore.jar;C:\Program Files (x86)\BlueJOLD\lib\junit-4.8.2.jar;C:\Users\khayes\Desktop\Classrooms\APCS 2019\chapter-7-repo-kevinthayes\GridWorldCode\gridworld.jar;C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses;C:\Program Files (x86)\BlueJOLD\lib\userlib\pi4j-core.jar;C:\Program Files (x86)\BlueJOLD\lib\userlib\pi4j-device.jar;C:\Program Files (x86)\BlueJOLD\lib\userlib\pi4j-gpio-extension.jar;C:\Program Files (x86)\BlueJOLD\lib\userlib\pi4j-service.jar;C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject
+C:\BlueJ-windows-422\bluej\lib\bluejcore.jar;C:\BlueJ-windows-422\bluej\lib\junit-4.11.jar;C:\BlueJ-windows-422\bluej\lib\hamcrest-core-1.3.jar;C:\BlueJ-windows-422\bluej\lib\lang-stride.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.base.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.controls.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.fxml.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.graphics.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.media.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.properties.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.swing.jar;C:\BlueJ-windows-422\bluej\lib\javafx\lib\javafx.web.jar;C:\Users\13312\Desktop\APCS\Programs & Notes\chapter-4-classes-starter-code-LucasCheng42\TurtleProject-OLD\bookClasses\javazoom.jar;C:\Users\13312\Desktop\APCS\Programs & Notes\chapter-4-classes-starter-code-LucasCheng42\TurtleProject-OLD\+libs\mediaComp.jar;C:\Users\13312\Desktop\APCS\Programs & Notes\chapter-4-classes-starter-code-LucasCheng42\TurtleProject-OLD\bookClasses\jmf.jar;C:\Users\13312\Desktop\APCS\Programs & Notes\chapter-4-classes-starter-code-LucasCheng42\TurtleProject-OLD\bookClasses\AVIDemo.jar;C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject
 -d
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc
+C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc
 -encoding
 UTF-8
 -charset
 UTF-8
--docletpath
-C:\Program Files (x86)\BlueJOLD\lib\bjdoclet.jar
--doclet
-bluej.doclet.doclets.formats.html.HtmlDoclet
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\SimpleTurtle.java
+C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\bookClasses\Turtle.java
 <---- end of javadoc command ---->
-Loading source file C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\SimpleTurtle.java...
+Loading source file C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\bookClasses\Turtle.java...
 Constructing Javadoc information...
-Standard Doclet version 1.8.0_40
+Standard Doclet version 11.0.2
 Building tree for all the packages and classes...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\bookClasses\SimpleTurtle.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\bookClasses\package-frame.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\bookClasses\package-summary.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\constant-values.html...
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\MovieWriter.java:9: error: package ch.randelshofer.media.avi does not exist
-import ch.randelshofer.media.avi.AVIOutputStream;
-                                ^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:37: error: package javax.media does not exist
-import javax.media.*;
-^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:38: error: package javax.media.control does not exist
-import javax.media.control.*;
-^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:39: error: package javax.media.protocol does not exist
-import javax.media.protocol.*;
-^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:40: error: package javax.media.protocol does not exist
-import javax.media.protocol.DataSource;
-                           ^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:41: error: package javax.media.datasink does not exist
-import javax.media.datasink.*;
-^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:42: error: package javax.media.format does not exist
-import javax.media.format.VideoFormat;
-                         ^
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:53: error: cannot find symbol
-public class JpegImagesToMovie implements ControllerListener, 
-                                          ^
-  symbol: class ControllerListener
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:54: error: cannot find symbol
-  DataSinkListener {
-  ^
-  symbol: class DataSinkListener
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:70: error: cannot find symbol
-                               MediaLocator outML) {
-                               ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:122: error: cannot find symbol
-                         MediaLocator outML) {
-                         ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:139: error: cannot find symbol
-                      MediaLocator outML,
-                      ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:235: error: cannot find symbol
-                      MediaLocator outML,
-                      ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:325: error: cannot find symbol
-  DataSink createDataSink(Processor p, MediaLocator outML) {
-                          ^
-  symbol:   class Processor
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:325: error: cannot find symbol
-  DataSink createDataSink(Processor p, MediaLocator outML) {
-                                       ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:325: error: cannot find symbol
-  DataSink createDataSink(Processor p, MediaLocator outML) {
-  ^
-  symbol:   class DataSink
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:356: error: cannot find symbol
-  boolean waitForState(Processor p, int state) {
-                       ^
-  symbol:   class Processor
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:370: error: cannot find symbol
-  public void controllerUpdate(ControllerEvent evt) {
-                               ^
-  symbol:   class ControllerEvent
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:412: error: cannot find symbol
-  public void dataSinkUpdate(DataSinkEvent evt) {
-                             ^
-  symbol:   class DataSinkEvent
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:508: error: cannot find symbol
-  static MediaLocator createMediaLocator(String url) {
-         ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:539: error: cannot find symbol
-  class ImageDataSource extends PullBufferDataSource {
-                                ^
-  symbol:   class PullBufferDataSource
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:606: error: cannot find symbol
-  class ImageSourceStream implements PullBufferStream {
-                                     ^
-  symbol:   class PullBufferStream
-  location: class JpegImagesToMovie
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:550: error: cannot find symbol
-    public void setLocator(MediaLocator source) {
-                           ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie.ImageDataSource
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:553: error: cannot find symbol
-    public MediaLocator getLocator() {
-           ^
-  symbol:   class MediaLocator
-  location: class JpegImagesToMovie.ImageDataSource
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:580: error: cannot find symbol
-    public PullBufferStream[] getStreams() {
-           ^
-  symbol:   class PullBufferStream
-  location: class JpegImagesToMovie.ImageDataSource
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:589: error: cannot find symbol
-    public Time getDuration() {
-           ^
-  symbol:   class Time
-  location: class JpegImagesToMovie.ImageDataSource
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:610: error: cannot find symbol
-    VideoFormat format;
-    ^
-  symbol:   class VideoFormat
-  location: class JpegImagesToMovie.ImageSourceStream
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:641: error: cannot find symbol
-    public void read(Buffer buf) throws IOException {
-                     ^
-  symbol:   class Buffer
-  location: class JpegImagesToMovie.ImageSourceStream
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:695: error: cannot find symbol
-    public Format getFormat() {
-           ^
-  symbol:   class Format
-  location: class JpegImagesToMovie.ImageSourceStream
-C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\bookClasses\JpegImagesToMovie.java:699: error: cannot find symbol
-    public ContentDescriptor getContentDescriptor() {
-           ^
-  symbol:   class ContentDescriptor
-  location: class JpegImagesToMovie.ImageSourceStream
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\bookClasses\Turtle.html...
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\bookClasses\package-summary.html...
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\constant-values.html...
 Building index for all the packages and classes...
 Building index for all classes...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\allclasses-frame.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\allclasses-noframe.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\index.html...
-Generating C:\Users\khayes\Desktop\Classrooms\APCS 2020\chapter-4-classes-starter-code-kevinthayes\TurtleProject\doc\stylesheet.css...
-30 errors
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\allclasses.html...
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\allclasses.html...
+Generating C:\Users\13312\Desktop\APCS\Programs & Notes\Turtle2020\TurtleProject\doc\index.html...

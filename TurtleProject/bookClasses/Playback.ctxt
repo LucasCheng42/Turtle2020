@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Playback
+comment0.text=\r\n\ The\ class\ <code>Playback</code>\ extends\ from\ <code>Thread</code>\r\n\ and\ allows\ for\ playback\ of\ a\ simple\ sound.\ \ The\ thread\ doesn't\ die\ until\r\n\ the\ sound\ is\ finished\ playing,\ however\ it\ is\ not\ blocking\ either.\ \ It\r\n\ will\ simply\ play\ the\ sound\ in\ the\ "background."\r\n\ \r\n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\r\n\ @author\ unknown\ undergrad\r\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\r\n
+comment1.params=sound
+comment1.target=Playback(SimpleSound)
+comment1.text=\r\n\ Constructor\ that\ takes\ the\ simple\ sound\ to\ be\ played\ \r\n\ @param\ sound\ the\ simple\ sound\ to\ play\r\n
+comment2.params=message\ e
+comment2.target=void\ shutDown(java.lang.String,\ java.lang.Exception)
+comment2.text=\r\n\ Stop\ the\ playback\ \r\n
+comment3.params=
+comment3.target=void\ stopPlaying()
+comment3.text=\r\n\ Stops\ this\ thread\ by\ breaking\ the\ while\ loop\ in\ the\ run\ method.\ \ \r\n\ Used,\ for\ example,\ by\ the\ "stop"\ button\ in\ the\ SoundExplorer\ class.\r\n
+comment4.params=
+comment4.target=boolean\ getPlaying()
+comment4.text=\r\n\ Method\ to\ return\ true\ if\ this\ playback\ thread\ is\ playing\ and\r\n\ false\ otherwise\r\n\ @return\ true\ if\ playing\ else\ false\r\n
+comment5.params=
+comment5.target=void\ run()
+comment5.text=\r\n\ Starts\ this\ thread.\ \ Gets\ an\ AudioInputStream,\ and\ writes\ is\ out\r\n\ to\ a\ SourceDataLine.\ \ If\ a\ SoundExplorer\ exists,\ upon\ creation\ of\ \r\n\ the\ SourceDataLine,\ the\ soundExplorer\ is\ added\ as\ the\ LineListener.\r\n\ When\ the\ thread\ finishes\ the\ run\ method,\ it\ removes\ itself\ from\ the\ \r\n\ list\ of\ threads\ currently\ playing\ this\ sound.\r\n\ @throws\ JavaSoundException\ if\ there\ were\ problems\ playing\ the\ sound.\r\n
+numComments=6

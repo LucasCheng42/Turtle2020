@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=SoundSample
+comment0.text=\r\n\ Class\ that\ represents\ a\ sample\ of\ a\ sound.\ \ It\ knows\ what\ sound\ object\r\n\ it\ comes\ from\ and\ knows\ what\ frame\ number\ this\ sample\ is\ in\ the\ sound\r\n\ object.\r\n\ \r\n\ Copyright\ Georgia\ Institute\ of\ Technology\ 2004\r\n\ @author\ Barb\ Ericson\ ericson@cc.gatech.edu\r\n
+comment1.params=sound\ frameNumber
+comment1.target=SoundSample(SimpleSound,\ int)
+comment1.text=\r\n\ Constructor\ that\ takes\ a\ sound\ and\ valueArray\r\n\ @param\ sound\ the\ sound\ object\ this\ sample\ comes\ from\r\n\ @param\ frameNumber\ the\ frameNumber\ of\ this\ sample\ in\ the\ sound\r\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\r\n\ Method\ to\ get\ the\ value\ of\ this\ sample\ as\ in\ int\r\n\ and\ handle\ the\ possible\ sound\ exception\r\n\ @return\ the\ value\ of\ this\ sample\ as\ an\ int\r\n
+comment3.params=value
+comment3.target=void\ setValue(int)
+comment3.text=\r\n\ Method\ to\ set\ the\ value\ of\ this\ sample\ and\r\n\ handle\ the\ sound\ exception\r\n\ @param\ value\ the\ value\ to\ use\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ Method\ to\ return\ a\ string\ with\ the\ information\ about\r\n\ this\ object\r\n\ @return\ a\ string\ with\ information\ about\ this\ object\r\n
+numComments=5

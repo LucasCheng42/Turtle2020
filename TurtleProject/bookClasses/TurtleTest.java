@@ -11,17 +11,18 @@ public class TurtleTest
     World world = new World(false);
     Turtle me = new Turtle(world);
 
-    Turtle[] turtleArray = new Turtle[1000];
-    for (int i=0; i < 1000; i++)
+    Turtle[] turtleArray = new Turtle[100];
+    for (int i=0; i < 100; i++)
       turtleArray[i] = new Turtle(world);
 
-    for (int i=0; i < 1000; i++)
+    for (int i=0; i < 10; i++) 
     {
       turtleArray[i].turn(randNumGen.nextInt(360));
-      turtleArray[i].forward(100);
+      turtleArray[i].randomWalk(100);
+      turtleArray[i].drawHexFlower(50);
     }
     me.moveTo(200,200);
-    me.square(200);
+    me.drawSquare(200);
     world.setVisible(true);
 
   }
